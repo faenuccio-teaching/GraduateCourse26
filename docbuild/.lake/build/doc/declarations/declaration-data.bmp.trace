@@ -1,0 +1,18 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs": null,
+ "log":
+ [{"message": "Documentation indexing", "level": "info"},
+  {"message":
+   ".> /home/fae/Desktop/Lean/GradCourse26/.lake/packages/doc-gen4/.lake/build/bin/doc-gen4 index --build /home/fae/Desktop/Lean/GradCourse26/docbuild/.lake/build",
+   "level": "trace"}],
+ "inputs":
+ [["/home/fae/Desktop/Lean/GradCourse26/.lake/packages/doc-gen4/.lake/build/bin/doc-gen4",
+   "cd021f749a32c58e"],
+  ["<nil>", "7b9f5ff346c3f45f"],
+  ["<collection>",
+   [["/home/fae/Desktop/Lean/GradCourse26/docbuild/.lake/build/doc/GradCourse26/Basic.html",
+     "56993e573a83102d"],
+    ["/home/fae/Desktop/Lean/GradCourse26/docbuild/.lake/build/doc/GradCourse26.html",
+     "b43661094c334f60"]]]],
+ "depHash": "a714277b56597338"}
