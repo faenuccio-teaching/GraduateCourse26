@@ -33,18 +33,18 @@ jobs:
           mkdir -p _site/docs
           cp -r docbuild/.lake/build/doc/* _site/docs/
 
-- name: DEBUG — show docs in _site
-  run: |
-    echo "===== _site tree ====="
-    ls -R _site | head -n 200
-    echo "===== _site/docs ====="
-    ls -R _site/docs || echo "_site/docs DOES NOT EXIST"
-    echo "===== index check ====="
-    test -f _site/docs/index.html && echo "index.html FOUND" || echo "index.html MISSING"
+      - name: DEBUG — show docs in _site
+        run: |
+            echo "===== _site tree ====="
+            ls -R _site | head -n 200
+            echo "===== _site/docs ====="
+            ls -R _site/docs || echo "_site/docs DOES NOT EXIST"
+            echo "===== index check ====="
+            test -f _site/docs/index.html && echo "index.html FOUND" || echo "index.html MISSING"
 
-      # ---- Deploy both together ----
+            # ---- Deploy both together ----
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+            path: _site
 
       - uses: actions/deploy-pages@v4
