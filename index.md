@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Bienvenue
+# Welcome
 This website contains many information about the Graduate Course *Formalized Mathematics in Lean* for the *École Doctorale Info-Math de Lyon*, in Spring 2026.
 
 The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/) and all material is in English: classes will be in French or in English according to participants.
@@ -10,7 +10,7 @@ The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/
 For every lecture, there is a `.md` file (exported also as a `.pdf`), that you find below and that contains all material discussed in class; alongside these files, there is also a `.lean` file shown during class, whose solutions are posted the day following the lecture, in general.
 
 The documentation for the Mathlib version used in this project is available [here](https://faenuccio-teaching.github.io/GraduateCourse26/docs/index.html). 
-# Agenda
+## Agenda
 Classes take place from 13h30 to 16h30 in... according to the following calendar:
 
 | Date      | Cours         | Fichiers annexes | Notes
@@ -28,21 +28,20 @@ Classes take place from 13h30 to 16h30 in... according to the following calendar
 | 14 avril | séminaire étudiants | |
 
 
-# References
+## References
 
-Il n'y a pas (encore) beaucoup de livres qui parlent de `Lean`, mais le très beau
-* [Mathematical Components](https://math-comp.github.io/mcb/), par A. Mahboubi et E. Tassi, bien que conçu pour l'assistant de preuve [`Rocq`](https://rocq-prover.org/), est une excellente présentation à ce qu'est la formalisation mathématique en général.
+There aren't many books detailing how `Lean` works, but the beautiful
+* [Mathematical Components](https://math-comp.github.io/mcb/), by A. Mahboubi and E. Tassi, tailored around the proof assistant [`Rocq`](https://rocq-prover.org/), is an excellent introduction to what formalization of mathematics is.
 
-Pour tout ce qui concerne la "théorie des types" qu'on utilise, une jolie introduction est dans le premier chapitre "Type theory" de
+For everything concerning the "type theory" that we'll be using, a nice introduction is the first chapter "Type theory" of the
 * [Homotopy Type Theory (a.k.a. "HoTT book")](https://homotopytypetheory.org/book/)
 
-Une source plus complète, très bien écrite et fort agréable à lire est
-* [Lectures on the Curry–Howard Isomorphism](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/149/suppl/C), par M. H. Sørensen et P. Urzyczyn.
+A more complete source, extremely well written and a really pleasant read is
+* [Lectures on the Curry–Howard Isomorphism](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/149/suppl/C), by M. H. Sørensen et P. Urzyczyn.
 
- Les deux références sont
-* [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/), par J. Avigad, L. de Moura, S. Kong et S. Ullrich
-* [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/), par J. Avigad et P. Massot
-contiennent aussi beaucoup de matériel pertinent pour notre cours.
+ The two `Lean`-oriented references
+* [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/), by J. Avigad, L. de Moura, S. Kong et S. Ullrich
+* [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/), by J. Avigad et P. Massot
+also contain a lot of material relevant to our course.
 
-
-# Autre
+## Other
