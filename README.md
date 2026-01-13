@@ -1,5 +1,9 @@
 # Graduate Course *Formalized Mathematics in Lean* for the *École Doctorale Info-Math de Lyon*, in Spring 2026.
 
+[![Docs: Website](https://img.shields.io/badge/Docs-Website-blue.svg?logo=readthedocs&logoColor=white)](https://faenuccio-teaching.github.io/GraduateCourse26/docs/index.html)
+
+
+
 ## Lean and GitHub Prerequisites 
 
 Before the beginning of the course, it would be important to:
