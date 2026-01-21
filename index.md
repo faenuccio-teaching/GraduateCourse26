@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Welcome
-This website contains the basic information about the Graduate Course *Formalized Mathematics in Lean* for the *École Doctorale Info-Math de Lyon*, in Spring 2026.
+This website contains the basic information about the Graduate Course *Preuve assistée par ordinateur dans Lean* for the *École Doctorale Info-Math de Lyon*, in Spring 2026.
 
 The teacher is [Filippo A. E. Nuccio](https://perso.univ-st-etienne.fr/nf51454h/) and all material is in English: classes will be in French or in English according to participants.
 
