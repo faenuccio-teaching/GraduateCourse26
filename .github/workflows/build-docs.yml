@@ -32,6 +32,12 @@ jobs:
           cd docbuild
           lake build GradCourse26:docs
 
+# For debugging purposes
+      - name: Locate generated docs
+        run: |
+                echo "Searching for index.html"
+                find . -path "*build/doc/index.html"
+
       - name: Commit generated docs
         run: |
           git config user.name "github-actions"
