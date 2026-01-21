@@ -1,16 +1,18 @@
-title: Formalizing Mathematics in Lean – ENS-Lyon, Graduate Course, Spring adde2026
-
+title: ""
+description: ""
 url: https://faenuccio-teaching.github.io
 baseurl: "/GradCourse26"
 repository: faenuccio-teaching/GradCourse26
+layout: default
+nav_enabled: false
 
-# remote_theme: pages-themes/cayman@v0.2.0
-remote_theme: pages-themes/minimal@v0.2.0
-#
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-  - jekyll-github-metadata
 
 keep_files:
   - docs
   - docbuild
+
+show_downloads: true
+
