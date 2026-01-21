@@ -29,10 +29,10 @@ jobs:
 
       - name: Build Lean docs
         run: |
-          mkdir -p docbuild
           cd docbuild
-          MATHLIB_NO_CACHE_ON_UPDATE=1 lake update doc-gen4
           lake build GradCourse26:docs
+        #   mkdir -p docbuild
+        #   MATHLIB_NO_CACHE_ON_UPDATE=1 lake update doc-gen4
 
 # For debugging purposes
       - name: Locate generated docs
