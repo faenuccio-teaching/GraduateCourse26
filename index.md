@@ -16,7 +16,7 @@ Classes take place from 14h00 to 17h00 at the "site Monod" of the École Normale
 | Date      | Lecture         | Ancillary Files | Notes
 |-----------|---------------|---------------|---------------
 | Fri, March 13th | Tactics and Types | |
-| Wed, March 18th | Types et Ensembles | |
+| Wed, March 18th | More  on Types | |
 | Fri, March 20th | Algebra | |
 | Wed, April 1st | Topology | |
 | Fri, April 3rd | Analysis | |
@@ -25,7 +25,9 @@ Classes take place from 14h00 to 17h00 at the "site Monod" of the École Normale
 ## References
 
 There aren't many books detailing how `Lean` works, but the beautiful
-* [Mathematical Components](https://math-comp.github.io/mcb/), by A. Mahboubi and E. Tassi, tailored around the proof assistant [`Rocq`](https://rocq-prover.org/), is an excellent introduction to what formalization of mathematics is.
+* [Mathematical Components](https://math-comp.github.io/mcb/), by A. Mahboubi and E. Tassi, 
+
+    tailored around the proof assistant [`Rocq`](https://rocq-prover.org/), is an excellent introduction to what formalization of mathematics is.
 
 For everything concerning the "type theory" that we'll be using, a nice introduction is the first chapter "Type theory" of the
 * [Homotopy Type Theory (a.k.a. "HoTT book")](https://homotopytypetheory.org/book/)
@@ -36,7 +38,8 @@ A more complete source, extremely well written and a really pleasant read is
  The two `Lean`-oriented references
 * [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/), by J. Avigad, L. de Moura, S. Kong et S. Ullrich
 * [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/), by J. Avigad et P. Massot
-also contain a lot of material relevant to our course.
+
+    also contain a lot of material relevant to our course.
 
 ## Lean and GitHub prerequisites
 
